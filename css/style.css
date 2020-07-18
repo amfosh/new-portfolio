@@ -86,6 +86,13 @@
     src: local('Domaine Display Narrow Black Italic'), url('./fonts/DomaineDispNar-BlackItalic.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Renner Light';
+    font-style: notmal;
+    font-weight: normal; 
+    src: local('Renner Light'), url('./fonts/renner-light.otf') format("opentype");
+}
+
 body { 
     font-family: 'Domaine Display Narrow Regular', Arial, sans-serif;
     font-size: 24px;
@@ -148,13 +155,15 @@ video#myVideo {
 }
 
 .column-container { 
-    width:1150px;
+    width:auto;
     margin:0 auto;
     position:relative;
+    background: #fff;
  }
 
 .column {
     float: left;
+    text-align: center;
     width: 20%;
     padding-left: 100px;
 }
@@ -166,8 +175,17 @@ video#myVideo {
     clear: both;
 }
 
+h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
 ul {
+    margin-top: 5px;
+    line-height: 22px;
     list-style: none;
+    font-size: 20px;
+    font-family: 'Renner Light';
     padding-left:0;
 }
 
