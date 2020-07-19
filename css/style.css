@@ -140,7 +140,7 @@ h3 {
     margin-bottom: 0;
 }
 
-ul {
+ul, small {
     margin-top: 5px;
     line-height: 22px;
     list-style: none;
@@ -149,7 +149,19 @@ ul {
     padding-left:0;
 }
 
-.writing {
+.portfolio-container {
+    margin-top: 70px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center stretch;
+    justify-content: space-evenly;
+    height: 300px;
+    width: 100%;
+    background: #fff; 
+}
+
+.writing, .portfolio {
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
