@@ -84,7 +84,7 @@ video#myVideo {
     background: url(../assets/headshot.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 50px;
+    margin-left: 10%;
     overflow:hidden;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
@@ -113,6 +113,7 @@ video#myVideo {
     align-items: center stretch;
     justify-content: space-evenly;
     height: 300px;
+    width: 55%;
     background: #fff; 
  }
 
@@ -127,6 +128,13 @@ video#myVideo {
     clear: both;
 }
 
+hr {
+    width: 50%;
+    background-color: rgb(195, 195, 197);
+    height: 1px;
+    border: none;
+}
+
 h3 {
     font-size: 26px;
     margin-bottom: 0;
@@ -139,6 +147,21 @@ ul {
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     padding-left:0;
+}
+
+.writing {
+    width: 100%;
+    text-align: center;
+}
+
+.writing .h3 {
+    text-align: center;
+}
+
+.blog-post-title {
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 22px;
 }
 
 @media only screen 
