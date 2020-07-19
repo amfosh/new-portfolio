@@ -29,19 +29,16 @@
     src: local('Renner Medium'), url('./fonts/renner-medium.otf') format("opentype");
 }
 
-body { 
+body, html { 
     font-family: 'Domaine Display Narrow Regular', Arial, sans-serif;
     font-size: 24px;
     margin: 0px;
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
     font-size: 32px;
-}
-
-body, html {
-    height: 100%;
-    width: 100%;
 }
 
 .intro {
@@ -92,18 +89,19 @@ video#myVideo {
 }
 
 .column-container { 
-    width:auto;
-    margin:0 auto;
-    position:relative;
-    background: #fff;
-    padding: 80px;
+    margin-top: 70px;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center stretch;
+    justify-content: space-evenly;
+    height: 300px;
+    /* width: 70%; */
+    background: #fff; 
  }
 
 .column {
-    float: left;
     text-align: center;
-    width: 20%;
-    padding-left: 100px;
 }
   
   /* Clear floats after the columns */
@@ -124,7 +122,6 @@ ul {
     list-style: none;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    /* font-family: 'Renner Light'; */
     padding-left:0;
 }
 
