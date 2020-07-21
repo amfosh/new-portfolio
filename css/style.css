@@ -154,11 +154,18 @@ ul, small {
     margin-bottom: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center stretch;
     justify-content: space-evenly;
     height: 300px;
     width: 100%;
     background: #fff; 
+}
+
+.portfolio-container, .row1, .row2 {
+    display:flex;
+    flex:1 0 100%;
+    justify-content: space-evenly;
 }
 
 .writing, .portfolio {
@@ -227,6 +234,7 @@ and (max-device-width : 1024px) {
     .column-container { 
         margin-top: 70px;
         margin-bottom: auto;
+        width: 50%;
         display: flex;
         flex-direction: row;
         align-items: center stretch;
@@ -235,21 +243,11 @@ and (max-device-width : 1024px) {
         background: #fff; 
     }
 
-    /* .column-container { 
-        display: inline-block;
-        width:100%;
-        margin:0;
-        position:relative;
-        background: #fff;
-        padding: 5px;
-    } */
-
-    /* .column {
-        text-align: center;
-        width: 20%;
-        padding-left: 80px;
-    } */
-
-
+    .roundedImage {
+        margin-left: 5%
+    }
+    
+    .columm {
+        width: 100%;
+    }
 }
-
