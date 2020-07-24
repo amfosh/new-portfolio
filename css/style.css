@@ -42,9 +42,9 @@ h1 {
 }
 
 .intro {
-    margin-top: 200px;
+    margin-top: 40vh;
     margin-left: 150px;
-    margin-bottom: 50px;
+    margin-bottom: 60vh;
     margin-right: 40%;
     float: left;
 }
@@ -98,7 +98,7 @@ video#myVideo {
     min-height: 50% !important;
     position: absolute;
     z-index: 1000;
-    top: 80vh;
+    top: 100vh;
     background: #fff;
     width: 100%;
     background: #fff; 
