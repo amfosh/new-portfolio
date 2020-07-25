@@ -140,7 +140,7 @@ hr {
     border: none;
 }
 
-h3 {
+h2, h3 {
     font-size: 26px;
     margin-bottom: 0;
 }
@@ -192,6 +192,7 @@ a {
     color: rgb(160, 159, 159);
     text-decoration: none;
 }
+
 
 a:hover {
     color: rgb(126, 126, 126);
